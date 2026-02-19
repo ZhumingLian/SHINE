@@ -87,10 +87,8 @@ def main(args):
     else:
         fill_pipe.to(args.device)
         pipe.to(args.device)
-    class_list = ['cat', 'duck_toy', 'grey_sloth_plushie', 'monster_toy', 'rc_car', 'robot_toy', 'vase', 'wolf_plushie']
+
     for class_name in os.listdir(args.dataset_dir):
-        if class_name not in class_list:
-            continue
         class_path = os.path.join(args.dataset_dir, class_name)
         bg_path = os.path.join(class_path, "bg")
         content_file = os.path.join(bg_path, "content.json")

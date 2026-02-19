@@ -73,10 +73,7 @@ def main(args):
     # customized processor
     shine_processor = FluxAttnProcessor()
 
-    class_list = ['cat', 'duck_toy', 'grey_sloth_plushie', 'monster_toy', 'rc_car', 'robot_toy', 'vase', 'wolf_plushie']
     for class_name in os.listdir(args.dataset_dir):
-        if class_name not in class_list:
-            continue
         # 2. load lora wieght
         lora_file_path = f'ckpts/LoRA_ckpts/{class_name}/pytorch_lora_weights.safetensors'
         if not os.path.exists(lora_file_path):
