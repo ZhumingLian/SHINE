@@ -1,0 +1,21 @@
+[
+    {
+        "bg_img_path": "examples/rc_car/bg/bg.png",
+        "fg_img_path": "examples/rc_car/fg/03.jpg",
+        "fg_mask_path": "examples/rc_car/fg/03.png",
+        "fill_image_path": "examples/rc_car/fill.png",
+        "save_image_path": "examples/rc_car/result.png",
+        "lora_weight_path": "ckpts/LoRA_ckpts/rc_car/pytorch_lora_weights.safetensors",
+        "lora_prompt": "<sks>",
+        "instance_prompt": "rc_car",
+        "bbox": [
+            450,
+            550,
+            650,
+            750
+        ],
+        "source_prompt": "A white van is parked on a grassy area. The van is adorned with a colorful stripe on its side. In front of the van, there is a toy car placed on the grass. The van is parked in a parking lot with other cars visible in the background. The overall scene suggests a promotional event or a delivery service.",
+        "target_prompt": "A white van is parked on a grassy area. The van is adorned with a colorful stripe on its side. In front of the van, there is a <sks> placed on the grass. The van is parked in a parking lot with other cars visible in the background. The overall scene suggests a promotional event or a delivery service.",
+        "fill_prompt": "It's a toy car with a driver figure. The car is predominantly red and yellow, with a green bumper. The driver figure is wearing a blue shirt with the number 1 on it. The car and driver figure are made of plastic, giving them a smooth and shiny appearance. The car has a rounded shape with large wheels, while the driver figure has a simple, cartoon-like design."
+    }
+]

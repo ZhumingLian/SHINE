@@ -1,0 +1,21 @@
+[
+    {
+        "bg_img_path": "examples/vase/bg/bg.png",
+        "fg_img_path": "examples/vase/fg/03.jpg",
+        "fg_mask_path": "examples/vase/fg/03.png",
+        "fill_image_path": "examples/vase/fill.png",
+        "save_image_path": "examples/vase/result.png",
+        "lora_weight_path": "ckpts/LoRA_ckpts/vase/pytorch_lora_weights.safetensors",
+        "lora_prompt": "<sks>",
+        "instance_prompt": "vase",
+        "bbox": [
+            270,
+            450,
+            380,
+            700
+        ],
+        "source_prompt": "The image presents a serene and minimalist living room setting. Dominating the scene is a wooden chair, its backrest adorned with a vase. The chair is positioned in front of a white sofa, which is accessorized with a single white pillow. Above the sofa, a white lamp hangs, casting a soft glow across the room. To the right of the sofa, a framed picture adds a personal touch to the space. The floor is covered with a beige rug, complementing the neutral color palette of the room.",
+        "target_prompt": "The image presents a serene and minimalist living room setting. Dominating the scene is a wooden chair, its backrest adorned with a <sks>. The chair is positioned in front of a white sofa, which is accessorized with a single white pillow. Above the sofa, a white lamp hangs, casting a soft glow across the room. To the right of the sofa, a framed picture adds a personal touch to the space. The floor is covered with a beige rug, complementing the neutral color palette of the room.",
+        "fill_prompt": "A tall and narrow vase with a narrow neck that transitions into a wider body. The body of the vase is adorned with a marbled pattern that gives it a unique texture. The color of the vase is predominantly red, with a gradient effect that transitions from a darker shade at the top to a lighter shade at the bottom."
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "bg_img_path": "examples/robot_toy/bg/bg.png",
+        "fg_img_path": "examples/robot_toy/fg/03.jpg",
+        "fg_mask_path": "examples/robot_toy/fg/03.png",
+        "fill_image_path": "examples/robot_toy/fill.png",
+        "save_image_path": "examples/robot_toy/result.png",
+        "lora_weight_path": "ckpts/LoRA_ckpts/robot_toy/pytorch_lora_weights.safetensors",
+        "lora_prompt": "<sks>",
+        "instance_prompt": "robot_toy",
+        "bbox": [
+            550,
+            500,
+            750,
+            750
+        ],
+        "source_prompt": "The image captures a vibrant street scene. Dominating the foreground is a robot toy which stands on the sidewalk next to a green trash can. The street itself is lined with palm trees, adding a tropical feel to the scene. Cars are parked along the street, indicating a residential or commercial area. The sky above is a clear blue, suggesting a bright and sunny day.",
+        "target_prompt": "The image captures a vibrant street scene. Dominating the foreground is a <sks> which stands on the sidewalk next to a green trash can. The street itself is lined with palm trees, adding a tropical feel to the scene. Cars are parked along the street, indicating a residential or commercial area. The sky above is a clear blue, suggesting a bright and sunny day.",
+        "fill_prompt": "It's a white robot toy with blue accents. The robot has a round head with a black visor and a red mouth. It has two arms. The robot's body is predominantly white, with blue accents on its chest and arms."
+    }
+]

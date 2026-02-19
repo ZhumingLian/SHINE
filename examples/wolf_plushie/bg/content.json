@@ -1,0 +1,21 @@
+[
+    {
+        "bg_img_path": "examples/wolf_plushie/bg/bg.png",
+        "fg_img_path": "examples/wolf_plushie/fg/03.jpg",
+        "fg_mask_path": "examples/wolf_plushie/fg/03.png",
+        "fill_image_path": "examples/wolf_plushie/fill.png",
+        "save_image_path": "examples/wolf_plushie/result.png",
+        "lora_weight_path": "ckpts/LoRA_ckpts/wolf_plushie/pytorch_lora_weights.safetensors",
+        "lora_prompt": "<sks>",
+        "instance_prompt": "wolf_plushie",
+        "bbox": [
+            150,
+            550,
+            350,
+            750
+        ],
+        "source_prompt": "The image captures a vibrant scene set against the backdrop of a bright orange building. The building, characterized by its flat roof and rectangular windows, stands out against the clear blue sky. A palm tree, with its tall trunk and lush green leaves, adds a tropical touch to the scene. In the foreground, a wolf plushie is placed on a white and gray checkered sidewalk, adding a playful element to the image.",
+        "target_prompt": "The image captures a vibrant scene set against the backdrop of a bright orange building. The building, characterized by its flat roof and rectangular windows, stands out against the clear blue sky. A palm tree, with its tall trunk and lush green leaves, adds a tropical touch to the scene. In the foreground, a <sks> is placed on a white and gray checkered sidewalk, adding a playful element to the image.",
+        "fill_prompt": "A small plush toy of a wolf lying on the bed. The toy is predominantly gray and white, with a red collar adding a pop of color. The wolf's eyes are black, and it has a black nose, giving it a lifelike appearance."
+    }
+]

@@ -1,0 +1,16 @@
+__pycache__
+.vscode
+cache
+ckpts
+datasets
+outputs_dreameditbench
+outputs_complexcompo
+tools/arcface all vith 18 last and middle first 3 280 all 3 290 first 1 overlap last 6 middle 6 first 3 dropout.pth
+tools/CLIP-ViT-H-14-laion2b_s32b_b79k.pt
+models/ensemble_lora
+models/facebookresearch_dino_main
+models/clip_vitb16_pretrain.pth.tar
+models/dino_vitb16_pretrain.pth
+models/open_clip_vitb16_pretrain.pth.tar
+models/pretrained.zip
+models/trusted_list

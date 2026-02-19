@@ -1,0 +1,21 @@
+[
+    {
+        "bg_img_path": "examples/monster_toy/bg/bg.png",
+        "fg_img_path": "examples/monster_toy/fg/03.jpg",
+        "fg_mask_path": "examples/monster_toy/fg/03.png",
+        "fill_image_path": "examples/monster_toy/fill.png",
+        "save_image_path": "examples/monster_toy/result.png",
+        "lora_weight_path": "ckpts/LoRA_ckpts/monster_toy/pytorch_lora_weights.safetensors",
+        "lora_prompt": "<sks>",
+        "instance_prompt": "monster_toy",
+        "bbox": [
+            450,
+            850,
+            650,
+            1050
+        ],
+        "source_prompt": "The image captures a lively scene of a bustling city street, teeming with cyclists and pedestrians. The street, lined with buildings and traffic lights, is filled with people riding bicycles and walking on the sidewalks. The sky above is a clear blue, adding to the vibrancy of the scene. In the foreground, a monster toy is sitting on the sidewalk, adding a touch of whimsy to the otherwise ordinary cityscape.",
+        "target_prompt": "The image captures a lively scene of a bustling city street, teeming with cyclists and pedestrians. The street, lined with buildings and traffic lights, is filled with people riding bicycles and walking on the sidewalks. The sky above is a clear blue, adding to the vibrancy of the scene. In the foreground, a <sks> is sitting on the sidewalk, adding a touch of whimsy to the otherwise ordinary cityscape.",
+        "fill_prompt": "A red monster toy sitting on the shelf. The toy is predominantly red in color, with a yellow belly adding a pop of contrast. It has two large, round eyes that are white with black pupils, giving it an expressive look. The toy's mouth is open, revealing a set of sharp teeth that add to its playful appearance. The body of the toy is covered in a soft, fuzzy texture that invites touch. The arms and legs of the toy are long and thin, with white tips at the ends, adding to the overall charm of the plush crab."
+    }
+]

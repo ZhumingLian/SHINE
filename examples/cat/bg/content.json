@@ -1,0 +1,21 @@
+[
+    {
+        "bg_img_path": "examples/cat/bg/bg.png",
+        "fg_img_path": "examples/cat/fg/03.jpg",
+        "fg_mask_path": "examples/cat/fg/03.png",
+        "fill_image_path": "examples/cat/fill.png",
+        "save_image_path": "examples/cat/result.png",
+        "lora_weight_path": "ckpts/LoRA_ckpts/cat/pytorch_lora_weights.safetensors",
+        "lora_prompt": "<sks>",
+        "instance_prompt": "cat",
+        "bbox": [
+            300,
+            800,
+            500,
+            1000
+        ],
+        "source_prompt": "The image captures a scene in a city square where a statue of a man stands tall on a pedestal. The statue, made of a dark material, depicts the man dressed in a suit and holding a hat in his hand. In the foreground, a cat stands on the ground, adding a touch of whimsy to the scene. The square is framed by trees and buildings, creating a sense of depth and perspective.",
+        "target_prompt": "The image captures a scene in a city square where a statue of a man stands tall on a pedestal. The statue, made of a dark material, depicts the man dressed in a suit and holding a hat in his hand. In the foreground, a <sks> stands on the ground, adding a touch of whimsy to the scene. The square is framed by trees and buildings, creating a sense of depth and perspective.",
+        "fill_prompt": "It's a single, orange cat with a white chest and paws. Its fur is short and smooth, with a few visible stripes on its back. The cat's eyes are wide open, giving it an alert and curious expression. The cat's ears are perked up, indicating that it is attentive to its surroundings. The cat's tail is curled around its body, providing a sense of balance and stability."
+    }
+]

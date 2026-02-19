@@ -1,0 +1,10 @@
+[
+    {
+        "bg_img": "examples/cat/bg/bg.png",
+        "ref_img": "examples/cat/fg/03.jpg",
+        "ref_mask": "examples/cat/fg/03.png",
+        "result_img": "examples/cat/result.png",
+        "bbox": [500, 450, 750, 700],
+        "prompt": "In the center of the image, a wooden chair with a white bowl on it is positioned in front of a white couch. The chair is the main focus of the image, with its natural wood color contrasting against the white couch. On the couch, a cat is sitting, looking directly at the camera, adding a touch of life to the scene. The background features a white wall, providing a neutral backdrop that allows the chair and cat to stand out. Above the couch hangs a white lamp, casting a soft light over the scene. To the right of the couch, there's a framed picture on the wall, adding an element of personalization to the space."
+    }
+]
