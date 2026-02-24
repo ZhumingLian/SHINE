@@ -12,9 +12,9 @@ Adams Wai-Kin Kong <sup>1</sup>
 
 <sup>*</sup>Equal Contribution
 
-<!-- [Paper](https://arxiv.org/abs/2509.21278) | [Project Page](https://cjlxzh32.github.io) -->
-<!-- <a href='https://cjlxzh32.github.io/'><img src='https://img.shields.io/badge/Project-Page-green'></a> -->
-[![arXiv](https://img.shields.io/badge/arXiv-SHINE-green.svg?style=plastic)](https://arxiv.org/abs/2509.21278) [![HuggingFace](https://img.shields.io/badge/HuggingFace-LoRA_Checkpoints-blue.svg?style=plastic)](https://huggingface.co/cjlxzh32/Shine_lora_ckpts) [![HuggingFace](https://img.shields.io/badge/HuggingFace-Bench_ComplexCompo-red.svg?style=plastic)](https://huggingface.co/datasets/cjlxzh32/ComplexCompo) [![HuggingFace](https://img.shields.io/badge/HuggingFace-Bench_DreamEditBench-pink.svg?style=plastic)](https://huggingface.co/datasets/cjlxzh32/Shine-DreamEditBench) 
+<!-- [Paper](https://arxiv.org/abs/2509.21278) | [Project Page](https://ZhumingLian.github.io) -->
+<!-- <a href='https://ZhumingLian.github.io/'><img src='https://img.shields.io/badge/Project-Page-green'></a> -->
+[![arXiv](https://img.shields.io/badge/arXiv-SHINE-green.svg?style=plastic)](https://arxiv.org/abs/2509.21278) [![HuggingFace](https://img.shields.io/badge/HuggingFace-LoRA_Checkpoints-blue.svg?style=plastic)](https://huggingface.co/ZhumingLian/Shine_lora_ckpts) [![HuggingFace](https://img.shields.io/badge/HuggingFace-Bench_ComplexCompo-red.svg?style=plastic)](https://huggingface.co/datasets/ZhumingLian/ComplexCompo) [![HuggingFace](https://img.shields.io/badge/HuggingFace-Bench_DreamEditBench-pink.svg?style=plastic)](https://huggingface.co/datasets/ZhumingLian/Shine-DreamEditBench) 
 
 </div>
 
@@ -67,10 +67,10 @@ hf download Tencent/InstantCharacter --local-dir ./ckpts/adapter_ckpts
 
 #### 2. LoRA Checkpoints
 
-The LoRA weights used in our experiments are available on HuggingFace:[Shine_lora_ckpts](https://huggingface.co/cjlxzh32/Shine_lora_ckpts). Download them with:
+The LoRA weights used in our experiments are available on HuggingFace:[Shine_lora_ckpts](https://huggingface.co/ZhumingLian/Shine_lora_ckpts). Download them with:
 
 ```
-hf download cjlxzh32/Shine_lora_ckpts --local-dir ./ckpts/LoRA_ckpts
+hf download ZhumingLian/Shine_lora_ckpts --local-dir ./ckpts/LoRA_ckpts
 ```
 
 #### 3. IRF Evaluation Checkpoints
@@ -82,14 +82,14 @@ Please follow the instructions in the
 
 The datasets used in our experiments are available on Hugging Face:
 
-- **[Shine-DreamEditBench](https://huggingface.co/datasets/cjlxzh32/Shine-DreamEditBench)**: a reformatted version of DreamEditBench  
-- **[ComplexCompo](https://huggingface.co/datasets/cjlxzh32/ComplexCompo)**: our benchmark dataset for evaluating physically plausible image composition
+- **[Shine-DreamEditBench](https://huggingface.co/datasets/ZhumingLian/Shine-DreamEditBench)**: a reformatted version of DreamEditBench  
+- **[ComplexCompo](https://huggingface.co/datasets/ZhumingLian/ComplexCompo)**: our benchmark dataset for evaluating physically plausible image composition
 
 Please download with:
 
 ```
-hf download --repo-type dataset cjlxzh32/Shine-DreamEditBench --local-dir ./datasets/Shine-DreamEditBench
-hf download --repo-type dataset cjlxzh32/ComplexCompo --local-dir ./datasets/ComplexCompo
+hf download --repo-type dataset ZhumingLian/Shine-DreamEditBench --local-dir ./datasets/Shine-DreamEditBench
+hf download --repo-type dataset ZhumingLian/ComplexCompo --local-dir ./datasets/ComplexCompo
 ```
 
 ### Repository Structure
