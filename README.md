@@ -1,12 +1,12 @@
 <div align="center">
 <h1>[ICLR 2026] Does FLUX Already Know How to Perform Physically Plausible Image Composition?</h1>
 
-Shilin Lu <sup>1,\*</sup>, 
-Zhuming Lian <sup>1,\*</sup>,
-Zihan Zhou <sup>1</sup>,
-Shaocong Zhang <sup>1</sup>,
-Chen Zhao <sup>2</sup>,
-Adams Wai-Kin Kong <sup>1</sup>
+Shilin Lu<sup>1,\*</sup>, 
+Zhuming Lian<sup>1,\*</sup>,
+Zihan Zhou<sup>1</sup>,
+Shaocong Zhang<sup>1</sup>,
+Chen Zhao<sup>2</sup>,
+Adams Wai-Kin Kong<sup>1</sup>
 
 <sup>1</sup>Nanyang Technological University, <sup>2</sup>Nanjing University 
 
@@ -159,7 +159,7 @@ hf download --repo-type dataset ZhumingLian/ComplexCompo --local-dir ./datasets/
 ├── tools/                               # evaluation tools
 │   │── cladapter_score.py
 │   ├── dinov2_score.py
-│   └── first_score.py
+│   └── IRF_score.py
 ├── .gitignore
 ├── README.md
 └── requirements.txt
