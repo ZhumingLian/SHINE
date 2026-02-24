@@ -67,7 +67,7 @@ hf download Tencent/InstantCharacter --local-dir ./ckpts/adapter_ckpts
 
 #### 2. LoRA Checkpoints
 
-The LoRA weights used in our experiments are available on HuggingFace:[Shine_lora_ckpts](https://huggingface.co/ZhumingLian/Shine_lora_ckpts). Download them with:
+The LoRA weights used in our experiments are available on HuggingFace: [Shine_lora_ckpts](https://huggingface.co/ZhumingLian/Shine_lora_ckpts). Download them with:
 
 ```
 hf download ZhumingLian/Shine_lora_ckpts --local-dir ./ckpts/LoRA_ckpts
@@ -76,7 +76,7 @@ hf download ZhumingLian/Shine_lora_ckpts --local-dir ./ckpts/LoRA_ckpts
 #### 3. IRF Evaluation Checkpoints
 
 Please follow the instructions in the
-[1st-Place-Solution-in-Google-Universal-Image-Embedding](https://github.com/ShihaoShao-GH/1st-Place-Solution-in-Google-Universal-Image-Embedding?tab=readme-ov-file)to obtain the IRF evaluation checkpoints and place the downloaded files in `ckpts/IRF_ckpts/` directory.
+[1st-Place-Solution-in-Google-Universal-Image-Embedding](https://github.com/ShihaoShao-GH/1st-Place-Solution-in-Google-Universal-Image-Embedding?tab=readme-ov-file) to obtain the IRF evaluation checkpoints and place the downloaded files in `ckpts/IRF_ckpts/` directory.
 
 #### 4. Datasets
 
