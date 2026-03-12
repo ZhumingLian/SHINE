@@ -14,7 +14,7 @@ Adams Wai-Kin Kong<sup>1</sup>
 
 <!-- [Paper](https://arxiv.org/abs/2509.21278) | [Project Page](https://ZhumingLian.github.io) -->
 <!-- <a href='https://ZhumingLian.github.io/'><img src='https://img.shields.io/badge/Project-Page-green'></a> -->
-[![arXiv](https://img.shields.io/badge/arXiv-SHINE-green.svg?style=plastic)](https://arxiv.org/abs/2509.21278) [![HuggingFace](https://img.shields.io/badge/HuggingFace-LoRA_Checkpoints-blue.svg?style=plastic)](https://huggingface.co/ZhumingLian/Shine_lora_ckpts) [![HuggingFace](https://img.shields.io/badge/HuggingFace-Bench_ComplexCompo-red.svg?style=plastic)](https://huggingface.co/datasets/ZhumingLian/ComplexCompo) [![HuggingFace](https://img.shields.io/badge/HuggingFace-Bench_DreamEditBench-pink.svg?style=plastic)](https://huggingface.co/datasets/ZhumingLian/Shine-DreamEditBench) 
+[![arXiv](https://img.shields.io/badge/arXiv-SHINE-green.svg?style=plastic)](https://arxiv.org/abs/2509.21278) [![HuggingFace](https://img.shields.io/badge/HuggingFace-LoRA_Checkpoints-blue.svg?style=plastic)](https://huggingface.co/ZhumingLian/Shine_lora_ckpts) [![HuggingFace](https://img.shields.io/badge/HuggingFace-Bench_ComplexCompo-red.svg?style=plastic)](https://huggingface.co/datasets/ZhumingLian/ComplexCompo) [![HuggingFace](https://img.shields.io/badge/HuggingFace-Bench_DreamEditBench-pink.svg?style=plastic)](https://huggingface.co/datasets/ZhumingLian/Shine-DreamEditBench) [![Paper Video](https://img.shields.io/badge/Demo-Video-orange)](https://youtu.be/P3aMAG9Zo0A?si=Ld8h_GMfvihiTZMJ)
 
 </div>
 
